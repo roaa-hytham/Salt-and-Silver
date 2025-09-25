@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 1e90f1fa3359e2b47a488bac69c07507
+  productGUID: 8ffcd559393588f45bb133d8bbb2c26c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -916,10 +916,10 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
-  cloudProjectId: 7eb2852a-9890-42a5-a2a9-cbcbbda050c6
+  cloudProjectId: 121b5023-9fe4-41f3-95ef-74a78e1730d5
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: A1-Game-Prototype
+  projectName: A1-Game-Prototype 2025-09-25_20-50-13
   organizationId: unity_8e132e79b60a47526876
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
