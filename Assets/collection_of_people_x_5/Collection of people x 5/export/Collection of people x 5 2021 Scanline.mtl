@@ -1,0 +1,82 @@
+# 3ds Max Wavefront OBJ Exporter v0.99 - (c)2007 guruware
+# File Created: 17.08.2025 15:58:15
+
+newmtl Collection_of_people_x_5_001
+	Ns 100.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.800000 0.800000 0.800000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-009.jpg
+	map_Kd C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-009.jpg
+	map_bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-010.jpg
+	bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-010.jpg
+
+newmtl Collection_of_people_x_5_002
+	Ns 100.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-001.jpg
+	map_Kd C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-001.jpg
+	map_bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-002.jpg
+	bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-002.jpg
+
+newmtl Collection_of_people_x_5_003
+	Ns 100.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.800000 0.800000 0.800000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-003.jpg
+	map_Kd C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-003.jpg
+	map_bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-004.jpg
+	bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-004.jpg
+
+newmtl Collection_of_people_x_5_004
+	Ns 100.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.800000 0.800000 0.800000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-005.jpg
+	map_Kd C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-005.jpg
+	map_bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-006.jpg
+	bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-006.jpg
+
+newmtl Collection_of_people_x_5_005
+	Ns 100.000000
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-007.jpg
+	map_Kd C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-007.jpg
+	map_bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-008.jpg
+	bump C:\Users\Shurikman\Documents\3ds Max 2024\scenes\Others models\Peredelat\Collection of people x 5\maps\Collection of people x 5-008.jpg
