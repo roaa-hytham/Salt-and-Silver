@@ -1,2 +1,2 @@
-# Game-Concept-and-Prototype
-Game Concept and Prototype using Unity6
+# Salt & Silver Game Concept and Prototype
+Game Prototype using Unity6
