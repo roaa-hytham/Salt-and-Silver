@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     {
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
-        Vector3 movement = new Vector3(h, 0f, v).normalized;
+        Vector3 movement = new Vector3(v, 0f, h).normalized;
         Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 
         if (movement.magnitude > 0)
