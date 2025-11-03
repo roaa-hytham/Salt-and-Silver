@@ -5,8 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - CashRegister
-  - Wall
-  - Shelf
+  - Food
   layers:
   - Default
   - TransparentFX
