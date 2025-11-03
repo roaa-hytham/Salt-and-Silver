@@ -1421,6 +1421,20 @@ CapsuleCollider:
   m_Height: 2.0340877
   m_Direction: 1
   m_Center: {x: -0.064251214, y: 0.7679713, z: -0.024183393}
+--- !u!114 &316266066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316266057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5086b13b0cf125c46b6c052c363d9741, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactDistance: 3
+  interactTrigger: pressBtn
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,7 +1740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -680019549548895172, guid: 17b8dd01d2b2e7b42aface967561d054, type: 3}
       propertyPath: m_TagString
-      value: CashRegister
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 17b8dd01d2b2e7b42aface967561d054, type: 3}
       propertyPath: m_Name
@@ -1927,7 +1941,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1.1999986
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1989,7 +2003,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.031881165, y: 0.9271539, z: 0.36440316, w: 0.08111551}
+  m_LocalRotation: {x: 0.061677083, y: 0.70385987, z: -0.7049718, w: 0.061579797}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2032,7 +2046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayLength: 120
-  timeOfDay: 0.13079709
+  timeOfDay: 0.50025123
   sunLight: {fileID: 410087040}
   moonLight: {fileID: 1379328283}
   sunBaseIntensity: 1.2
@@ -3182,6 +3196,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 316266065}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 316266066}
     - targetCorrespondingSourceObject: {fileID: 6507346442333638635, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 129942800}
@@ -5626,7 +5643,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.3
+  m_Intensity: 0.00000035762787
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5688,7 +5705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379328280}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0811155, y: 0.3644033, z: -0.9271538, w: 0.03188118}
+  m_LocalRotation: {x: 0.061579794, y: -0.70497185, z: -0.7038598, w: -0.061677087}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
