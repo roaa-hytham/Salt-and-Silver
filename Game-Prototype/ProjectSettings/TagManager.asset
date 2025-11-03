@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CashRegister
   - Food
+  - LightSwitch
   layers:
   - Default
   - TransparentFX

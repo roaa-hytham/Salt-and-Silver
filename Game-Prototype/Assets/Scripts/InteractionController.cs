@@ -7,6 +7,7 @@ public class InteractionController : MonoBehaviour
     public Camera cam;
     public float rayDistance = 100f;
     private Animator anim;
+    public Light light;
 
     private void Start()
     {
@@ -31,6 +32,12 @@ public class InteractionController : MonoBehaviour
                         hit.collider.gameObject.SetActive(false);
                         break;
 
+                    case "LightSwitch":
+                        Debug.Log("Clicked on LightSwitch");
+                        StartCoroutine(playPressBtnAnim());
+                        toggleLight();
+                        break;
+
                     default:
                         Debug.Log("Clicked on something else: " + hit.collider.tag);
                         break;
@@ -42,8 +49,14 @@ public class InteractionController : MonoBehaviour
     IEnumerator playPressBtnAnim()
     {
         anim.SetBool("pressBtn", true);
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1);
         anim.SetBool("pressBtn", false);
+    }
+
+    private void toggleLight()
+    {
+        light.enabled = !light.enabled;
+        Debug.Log("Light toggled. Now: " + (light.enabled ? "ON" : "OFF"));
     }
 
 }
