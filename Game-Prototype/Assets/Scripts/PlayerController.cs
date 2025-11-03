@@ -7,7 +7,6 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private Rigidbody rb;
     private Vector3 movement;
-    private bool canMove = true;
 
     void Start()
     {
@@ -18,7 +17,6 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (!canMove) return;
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
@@ -28,7 +26,6 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (!canMove) return;
         if (movement.magnitude > 0.1f)
         {
             Vector3 movePosition = rb.position + movement * speed * Time.fixedDeltaTime;
@@ -36,22 +33,5 @@ public class PlayerController : MonoBehaviour
             transform.forward = movement;
         }
     }
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Wall"))
-    //    {
-    //        //canMove = false;
-    //        rb.linearVelocity = Vector3.zero;
-    //        movement = Vector3.zero;
-    //    }
-    //}
-
-    //private void OnCollisionExit(Collision collision)
-    //{
-    //    if (collision.gameObject.CompareTag("Wall"))
-    //    {
-    //        canMove = true;
-    //    }
-    //}
 
 }
