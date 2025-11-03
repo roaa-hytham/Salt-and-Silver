@@ -1433,8 +1433,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5086b13b0cf125c46b6c052c363d9741, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactDistance: 3
-  interactTrigger: pressBtn
+  cam: {fileID: 330585545}
+  rayDistance: 100
+  anim: {fileID: 742733119}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1756,7 +1757,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 17b8dd01d2b2e7b42aface967561d054, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1523158579}
+      addedObject: {fileID: 1523158581}
   m_SourcePrefab: {fileID: 100100000, guid: 17b8dd01d2b2e7b42aface967561d054, type: 3}
 --- !u!1001 &404623689
 PrefabInstance:
@@ -1941,7 +1942,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.1999986
+  m_Intensity: 1.1825143
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2003,7 +2004,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.061677083, y: 0.70385987, z: -0.7049718, w: 0.061579797}
+  m_LocalRotation: {x: 0.06666394, y: 0.6417187, z: -0.76197183, w: 0.05614315}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2046,7 +2047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayLength: 120
-  timeOfDay: 0.50025123
+  timeOfDay: 0.52720296
   sunLight: {fileID: 410087040}
   moonLight: {fileID: 1379328283}
   sunBaseIntensity: 1.2
@@ -3192,10 +3193,10 @@ PrefabInstance:
       addedObject: {fileID: 316266062}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 316266060}
+      addedObject: {fileID: 316266065}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 316266065}
+      addedObject: {fileID: 316266060}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 316266066}
@@ -3221,6 +3222,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1303805624}
   m_SourcePrefab: {fileID: 100100000, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
+--- !u!95 &742733119 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
+  m_PrefabInstance: {fileID: 742733118}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &784898503 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1030972143, guid: abc00000000012668423437282172797, type: 3}
@@ -5643,7 +5649,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.00000035762787
+  m_Intensity: 0.004371429
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5705,7 +5711,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379328280}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.061579794, y: -0.70497185, z: -0.7038598, w: -0.061677087}
+  m_LocalRotation: {x: 0.056143142, y: -0.76197183, z: -0.6417186, w: -0.06666394}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6622,8 +6628,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 17b8dd01d2b2e7b42aface967561d054, type: 3}
   m_PrefabInstance: {fileID: 393389625}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1523158579
-MeshCollider:
+--- !u!65 &1523158581
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6640,10 +6646,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.5903059, y: 0.40400222, z: 0.51658183}
+  m_Center: {x: 0.03141135, y: 0.22703238, z: -0.0064225495}
 --- !u!1 &1531526574
 GameObject:
   m_ObjectHideFlags: 0
