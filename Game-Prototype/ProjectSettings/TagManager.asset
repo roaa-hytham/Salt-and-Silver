@@ -8,6 +8,7 @@ TagManager:
   - Food
   - LightSwitch
   - RestaurantTriggerWall
+  - MarketTrigger
   layers:
   - Default
   - TransparentFX
