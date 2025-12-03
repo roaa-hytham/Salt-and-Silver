@@ -8,6 +8,7 @@ public class InteractionController : MonoBehaviour
     public float rayDistance = 100f;
     private Animator anim;
     public Light light;
+    public Light light2;
 
     private void Start()
     {
@@ -56,7 +57,9 @@ public class InteractionController : MonoBehaviour
     private void toggleLight()
     {
         light.enabled = !light.enabled;
+        light2.enabled = light.enabled;
         Debug.Log("Light toggled. Now: " + (light.enabled ? "ON" : "OFF"));
+        Debug.Log("Light2 toggled. Now: " + (light2.enabled ? "ON" : "OFF"));
     }
 
 }
