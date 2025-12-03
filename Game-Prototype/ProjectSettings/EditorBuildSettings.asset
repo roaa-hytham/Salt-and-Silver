@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MarketStreetScene.unity
     guid: e5bc6c8f13d7a2a4cb99b85edb017c3e
+  - enabled: 1
+    path: Assets/Scenes/ForestScene.unity
+    guid: 5c664c216afe9624e89fc573841eddd9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
