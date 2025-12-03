@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -7,7 +8,6 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     private Rigidbody rb;
     private Vector3 movement;
-
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -31,6 +31,13 @@ public class PlayerController : MonoBehaviour
             Vector3 movePosition = rb.position + movement * speed * Time.fixedDeltaTime;
             rb.MovePosition(movePosition);
             transform.forward = movement;
+        }
+    }
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.CompareTag("RestaurantTriggerWall"))
+        {
+            SceneManager.LoadScene("StreetScene");
         }
     }
 
