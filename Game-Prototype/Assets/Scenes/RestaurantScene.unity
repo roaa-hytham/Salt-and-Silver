@@ -1453,6 +1453,18 @@ MonoBehaviour:
   rayDistance: 100
   light: {fileID: 621096642}
   light2: {fileID: 1790088466}
+--- !u!114 &316266067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316266057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ce457f9f997bd4a9afb20fec1bbad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1937,8 +1949,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.99125224, g: 0.8133809, b: 0.27685085, a: 1}
-  m_Intensity: 0.30772728
+  m_Color: {r: 0.99186814, g: 0.8265194, b: 0.32776266, a: 1}
+  m_Intensity: 0.37054586
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2000,7 +2012,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0112697, y: 0.98783153, z: -0.12881318, w: 0.08642412}
+  m_LocalRotation: {x: 0.013623818, y: 0.98394865, z: -0.15572084, w: 0.08608441}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2043,7 +2055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayLength: 500
-  timeOfDay: 0.2912747
+  timeOfDay: 0.29996172
   sunLight: {fileID: 410087040}
   moonLight: {fileID: 1379328283}
   sunBaseIntensity: 1.2
@@ -3557,6 +3569,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 316266066}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 316266067}
     - targetCorrespondingSourceObject: {fileID: 6507346442333638635, guid: 88acdc57ef01c3b49a5756aca33f9be7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 129942800}
@@ -6323,7 +6338,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.2230682
+  m_Intensity: 0.20736355
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -6385,7 +6400,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379328280}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.08642412, y: -0.12881318, z: -0.98783153, w: -0.0112697}
+  m_LocalRotation: {x: 0.08608441, y: -0.15572083, z: -0.98394865, w: -0.013623817}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
