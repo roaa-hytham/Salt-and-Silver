@@ -4,14 +4,10 @@ using System.Collections;
 
 public class ExitBtnController : MonoBehaviour
 {
-    void Start()
+    public void ExitGame()
     {
         // Start the coroutine
         StartCoroutine(ExitGameAfterSaving());
-
-        // Exit game
-        Debug.Log("Exit game called.");
-        Application.Quit();
     }
 
     IEnumerator ExitGameAfterSaving()
@@ -21,5 +17,9 @@ public class ExitBtnController : MonoBehaviour
 
         // Wait for few seconds
         yield return new WaitForSeconds(3f);
+
+        // Exit game
+        Debug.Log("Exit game called.");
+        Application.Quit();
     }
 }

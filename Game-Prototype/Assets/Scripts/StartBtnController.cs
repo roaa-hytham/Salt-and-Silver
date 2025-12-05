@@ -4,16 +4,16 @@ using System.Collections;
 
 public class StartBtnController : MonoBehaviour
 {
-    void Start()
+    public void StartGame()
     {
-        SceneManager.LoadScene("LoadingScene");
-
         // Start the coroutine
         StartCoroutine(LoadNextSceneAfterDelay());
     }
 
     IEnumerator LoadNextSceneAfterDelay()
     {
+        SceneManager.LoadScene("LoadingScene");
+
         // Wait for few seconds
         yield return new WaitForSeconds(3f);
 
