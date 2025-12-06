@@ -15,6 +15,8 @@ TagManager:
   - MagicFlower
   - BFly
   - SpiderLily
+  - YellowMushroom
+  - Spirit
   layers:
   - Default
   - TransparentFX
