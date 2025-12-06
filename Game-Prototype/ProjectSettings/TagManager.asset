@@ -12,6 +12,7 @@ TagManager:
   - ForestTrigger
   - RestaurantTrigger
   - RedMushroom
+  - MagicFlower
   layers:
   - Default
   - TransparentFX
