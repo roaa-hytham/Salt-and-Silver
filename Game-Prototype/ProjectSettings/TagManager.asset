@@ -11,6 +11,7 @@ TagManager:
   - MarketTrigger
   - ForestTrigger
   - RestaurantTrigger
+  - RedMushroom
   layers:
   - Default
   - TransparentFX
