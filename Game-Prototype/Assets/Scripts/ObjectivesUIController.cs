@@ -2,10 +2,15 @@ using UnityEngine;
 
 public class ObjectivesUIController : MonoBehaviour
 {
+    // Objectives Panel UI
     public GameObject objectivesPanel;
-    public GameObject instructionsTxt;
-    public GameObject instructionsKey;
-    private bool isVisible = false;
+    // Shortcuts Panel UI
+    public GameObject shortcutsPanel;
+    // Shortcuts Instruction Panel
+    public GameObject instructionsPanel;
+    // Visibility of Objective Panel
+    private bool isVisible = true;
+    // Visibility of Shortcuts Panel
     private bool isShowing = false;
 
     // Update is called once per frame
@@ -21,9 +26,9 @@ public class ObjectivesUIController : MonoBehaviour
         // Toggle with "K"
         if (Input.GetKeyDown(KeyCode.K))
         {
-            instructionsKey.SetActive(false);
+            instructionsPanel.SetActive(false);
             isShowing = !isShowing;
-            instructionsTxt.SetActive(isShowing);
+            shortcutsPanel.SetActive(isShowing);
         }
     }
 }
