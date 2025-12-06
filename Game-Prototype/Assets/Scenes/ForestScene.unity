@@ -381,6 +381,120 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &122447849
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.389287
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0039481334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45.63907
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+--- !u!1001 &133239670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.457903
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0039481334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45.339535
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,8 +731,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.9997875, g: 0.99546623, b: 0.9824317, a: 1}
-  m_Intensity: 1.178323
+  m_Color: {r: 0.98823535, g: 0.7490196, b: 0.027450982, a: 1}
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -680,7 +794,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06720653, y: 0.6342817, z: -0.76817364, w: 0.055492494}
+  m_LocalRotation: {x: 0.08451423, y: -0.24340351, z: -0.9660014, w: -0.021295063}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -723,7 +837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayLength: 500
-  timeOfDay: 0.5302971
+  timeOfDay: 0.82856905
   sunLight: {fileID: 410087040}
   moonLight: {fileID: 1379328283}
   sunBaseIntensity: 1.2
@@ -810,6 +924,63 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1001 &750729117
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.83429
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.003948074
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.543163
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
 --- !u!1 &788497283
 GameObject:
   m_ObjectHideFlags: 0
@@ -991,6 +1162,177 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1192361128
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.48441
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0039481334
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.695015
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+--- !u!1001 &1198461663
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.288923
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.003948014
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45.121666
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+--- !u!1001 &1204848176
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.28939
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.003948074
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.91624
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
 --- !u!1001 &1250467078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1098,6 +1440,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f7b390da440a02d48a2ed829926f00e0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f7b390da440a02d48a2ed829926f00e0, type: 3}
+      propertyPath: m_TagString
+      value: BFly
       objectReference: {fileID: 0}
     - target: {fileID: 1366278540751589237, guid: f7b390da440a02d48a2ed829926f00e0, type: 3}
       propertyPath: m_LocalScale.x
@@ -1639,7 +1985,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.0054192427
+  m_Intensity: 0.3
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1701,7 +2047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379328280}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.05549251, y: -0.76817346, z: -0.6342818, w: -0.06720652}
+  m_LocalRotation: {x: -0.021295056, y: -0.9660014, z: 0.24340343, w: -0.08451423}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1817,6 +2163,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1491641767
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.350798
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.003948074
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45.43289
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
 --- !u!1001 &1566907385
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1890,6 +2293,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4831c5bb704cdb4aa8e077f64680817, type: 3}
+--- !u!1001 &1822315771
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14.902762
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.003948014
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 45.33217
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
 --- !u!64 &1825097878
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2529,6 +2989,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4d80a286946da64080952ffc55e540c, type: 3}
+--- !u!1001 &2870686010924303650
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.374
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 44.712
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.85159117
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.2040452
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.029390588
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.48196915
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187761248734499848, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8857197097703116466, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
+      propertyPath: m_Name
+      value: LycorisRadiatafbx
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f61eea0be892cd44d803d51bd1478dcb, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -2546,3 +3063,12 @@ SceneRoots:
   - {fileID: 1319724980}
   - {fileID: 1250467078}
   - {fileID: 1566907385}
+  - {fileID: 2870686010924303650}
+  - {fileID: 1822315771}
+  - {fileID: 750729117}
+  - {fileID: 1204848176}
+  - {fileID: 133239670}
+  - {fileID: 1192361128}
+  - {fileID: 122447849}
+  - {fileID: 1198461663}
+  - {fileID: 1491641767}

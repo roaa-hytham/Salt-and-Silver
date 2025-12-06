@@ -13,6 +13,8 @@ TagManager:
   - RestaurantTrigger
   - RedMushroom
   - MagicFlower
+  - BFly
+  - SpiderLily
   layers:
   - Default
   - TransparentFX
