@@ -40,7 +40,7 @@ public class LevelsController : MonoBehaviour
                     if (PlayerData.tomatoesBought >= 5 &&
                         PlayerData.breadBought >= 4 &&
                         PlayerData.eggplantsBought >= 3 &&
-                        PlayerData.groceryBagOnCounter &&
+                        //PlayerData.groceryBagOnCounter &&
                         PlayerData.location == "Restaurant")
                     {
                         // Move to level 3

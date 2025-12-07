@@ -28,8 +28,8 @@ public class ObjectivesTxtController : MonoBehaviour
                     "2. Buy 5 tomatoes." + "\n" +
                     "3. Buy 3 loaves of bread." + "\n" +
                     "4. Buy 4 eggplants." + "\n" +
-                    "5. Go back to the restaurant." + "\n" + 
-                    "6. Put the grocery bag on the register counter.";
+                    "5. Go back to the restaurant." + "\n";
+                    //"6. Put the grocery bag on the register counter.";
                 break;
             // If player is in level 3, then update the objectives list accordingly
             case 3:

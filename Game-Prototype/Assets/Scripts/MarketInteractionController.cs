@@ -83,6 +83,13 @@ public class MarketInteractionController : MonoBehaviour
         DialoguePanel.SetActive(true);
         DialogueTxt.text = "Megan: I would like to buy these, please.";
         yield return new WaitForSeconds(2f);
+        if(totalCoins < 42)
+        {
+            playerData.tomatoesBought = 5;
+            playerData.breadBought = 4;
+            playerData.eggplantsBought = 3;
+            totalCoins = 42;
+        }
         DialogueTxt.text = "Market Girl: Sure, This will be " + totalCoins + " coins in total.";
         yield return new WaitForSeconds(2f);
         DialogueTxt.text = "Megan: Here you go.";
