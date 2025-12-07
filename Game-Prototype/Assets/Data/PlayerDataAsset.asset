@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: PlayerDataAsset
   m_EditorClassIdentifier: 
   coins: 0
-  level: 1
+  level: 2
   health: 0
