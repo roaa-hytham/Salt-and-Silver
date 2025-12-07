@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class ForestTransitionController : MonoBehaviour
 {
+    public PlayerData PlayerData;
     private void OnTriggerEnter(Collider collider)
     {
         // If player collides with MarketTrigger
@@ -10,6 +11,7 @@ public class ForestTransitionController : MonoBehaviour
         {
             // Load the MarketScene
             SceneManager.LoadScene("MarketScene");
+            PlayerData.location = "Market";
         }
     }
 }

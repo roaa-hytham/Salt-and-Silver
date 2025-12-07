@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class MarketTransitionController : MonoBehaviour
 {
+    public PlayerData PlayerData;
    private void OnTriggerEnter(Collider collider)
     {
         // If player collides with ForestTrigger
@@ -10,6 +11,7 @@ public class MarketTransitionController : MonoBehaviour
         {
             // Load the ForestScene
             SceneManager.LoadScene("ForestScene");
+            PlayerData.location = "Forest";
         }
 
         // If player collides with RestaurantTrigger
@@ -17,6 +19,7 @@ public class MarketTransitionController : MonoBehaviour
         {
             // Load the RestaurantScene
             SceneManager.LoadScene("RestaurantScene");
+            PlayerData.location = "Restaurant";
         }
     }
 }

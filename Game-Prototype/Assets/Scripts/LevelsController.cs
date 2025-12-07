@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class LevelsController : MonoBehaviour
 {
@@ -14,8 +16,10 @@ public class LevelsController : MonoBehaviour
                 if (PlayerData.foodCollected == 4 &&
                     PlayerData.coinsCollected == 4 &&
                     PlayerData.coinsRegistered &&
-                    PlayerData.restaurantLightsOff)
+                    PlayerData.restaurantLightsOff &&
+                    PlayerData.location == "Restaurant")
                 {
+                    StartCoroutine(LoadNextLevel());
                     // Move to level 2
                     PlayerData.level = 2;
                 }
@@ -26,8 +30,10 @@ public class LevelsController : MonoBehaviour
                 if(PlayerData.tomatoesBought == 5 &&
                     PlayerData.breadBought == 3 &&
                     PlayerData.eggplantsBought == 4 &&
-                    PlayerData.groceryBagOnCounter)
+                    PlayerData.groceryBagOnCounter &&
+                    PlayerData.location == "Restaurant")
                 {
+                    StartCoroutine(LoadNextLevel());
                     // Move to level 3
                     PlayerData.level = 3;
                 }
@@ -38,8 +44,10 @@ public class LevelsController : MonoBehaviour
                 if(PlayerData.redMushroomsCollected == 4 &&
                     PlayerData.yellowMushroomsCollected == 7 &&
                     PlayerData.spiderLiliesCollected == 3 &&
-                    !PlayerData.isCaught)
+                    !PlayerData.isCaught &&
+                    PlayerData.location == "Restaurant")
                 {
+                    StartCoroutine(GameWon());
                     // Player Wins
                     PlayerData.level = 4;
                 }
@@ -49,5 +57,38 @@ public class LevelsController : MonoBehaviour
                 PlayerData.level = 1;
                 break;
         }
+    }
+    IEnumerator LoadNextLevel()
+    {
+        // Load the next scene
+        SceneManager.LoadScene("LevelCompleteScene");
+
+        // Wait for few seconds
+        yield return new WaitForSeconds(2f);
+
+        // Load the next scene
+        SceneManager.LoadScene("SavingScene");
+
+        yield return new WaitForSeconds(2f);
+
+        // Load the next scene
+        SceneManager.LoadScene("RestaurantScene");
+    }
+
+    IEnumerator GameWon()
+    {
+        // Load the next scene
+        SceneManager.LoadScene("LevelCompleteScene");
+
+        // Wait for few seconds
+        yield return new WaitForSeconds(2f);
+
+        // Load the next scene
+        SceneManager.LoadScene("SavingScene");
+
+        yield return new WaitForSeconds(2f);
+
+        // Load the next scene
+        SceneManager.LoadScene("WinScene");
     }
 }

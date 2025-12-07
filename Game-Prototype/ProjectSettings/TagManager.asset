@@ -18,6 +18,7 @@ TagManager:
   - YellowMushroom
   - Spirit
   - Coin
+  - GroceryBag
   layers:
   - Default
   - TransparentFX
