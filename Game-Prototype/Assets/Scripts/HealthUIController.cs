@@ -6,6 +6,8 @@ public class HealthUIController : MonoBehaviour
 {
     // Health Panel
     public Image HealthPanel;
+    public GameObject HealthPanelObject;
+    private bool isVisible = true;
     // Health Score Txt
     public TMP_Text HealthTxt;
     // Stores player's data
@@ -14,6 +16,12 @@ public class HealthUIController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            isVisible = !isVisible;
+            HealthPanelObject.SetActive(isVisible);
+        }
+
         // Holds the player's current health score
         int hp = playerData.health;
         // Holds the maximum health score player can reach
@@ -22,6 +30,7 @@ public class HealthUIController : MonoBehaviour
         if(hp >= maxHp)
         {
             hp = maxHp;
+            // Change color accordingly
             HealthPanel.color = Color.green;
         }
         if(hp <= maxHp / 2)
