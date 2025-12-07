@@ -13,5 +13,18 @@ MonoBehaviour:
   m_Name: PlayerDataAsset
   m_EditorClassIdentifier: 
   coins: 0
-  level: 2
+  level: 1
   health: 0
+  location: 
+  coinsCollected: 0
+  coinsRegistered: 0
+  foodCollected: 0
+  restaurantLightsOff: 0
+  tomatoesBought: 0
+  breadBought: 0
+  eggplantsBought: 0
+  groceryBagOnCounter: 0
+  redMushroomsCollected: 0
+  yellowMushroomsCollected: 0
+  spiderLiliesCollected: 0
+  isCaught: 0
