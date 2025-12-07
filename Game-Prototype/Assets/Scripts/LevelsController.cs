@@ -1,10 +1,14 @@
-using UnityEngine;
 using System.Collections;
+using TMPro;
+using UnityEditor.Rendering;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelsController : MonoBehaviour
 {
     public PlayerData PlayerData;
+    public GameObject DialoguePanel;
+    public TMP_Text DialogueTxt;
 
     // Update is called once per frame
     void Update()
@@ -25,9 +29,9 @@ public class LevelsController : MonoBehaviour
                         PlayerData.restaurantLightsOff &&
                         PlayerData.location == "Restaurant")
                     {
-                        StartCoroutine(LoadNextLevel());
                         // Move to level 2
                         PlayerData.level = 2;
+                        StartCoroutine(Level2Dialogue());
                     }
                     break;
 
@@ -39,9 +43,9 @@ public class LevelsController : MonoBehaviour
                         PlayerData.groceryBagOnCounter &&
                         PlayerData.location == "Restaurant")
                     {
-                        StartCoroutine(LoadNextLevel());
                         // Move to level 3
                         PlayerData.level = 3;
+                        StartCoroutine(LoadNextLevel());
                     }
                     break;
 
@@ -97,5 +101,25 @@ public class LevelsController : MonoBehaviour
 
         // Load the next scene
         SceneManager.LoadScene("WinScene");
+    }
+
+    IEnumerator Level2Dialogue()
+    {
+        yield return StartCoroutine(LoadNextLevel());
+        yield return new WaitForSeconds(1);
+        DialoguePanel.SetActive(true);
+        DialogueTxt.text = "Megan: I need to buy groceries...";
+        yield return new WaitForSeconds(2f);
+        DialoguePanel.SetActive(false);
+    }
+
+    IEnumerator Level3Dialogue()
+    {
+        yield return StartCoroutine(LoadNextLevel());
+        yield return new WaitForSeconds(1);
+        DialoguePanel.SetActive(true);
+        DialogueTxt.text = "Megan: I need to collect some mushrooms from the forest...";
+        yield return new WaitForSeconds(2f);
+        DialoguePanel.SetActive(false);
     }
 }

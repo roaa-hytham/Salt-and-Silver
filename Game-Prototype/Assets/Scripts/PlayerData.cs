@@ -5,6 +5,7 @@ public class PlayerData : ScriptableObject
 {
     public int coins;
     public int level = 1;
+    public int maxHealth = 100;
     public int health = 100;
     public string location = "Restaurant";
 

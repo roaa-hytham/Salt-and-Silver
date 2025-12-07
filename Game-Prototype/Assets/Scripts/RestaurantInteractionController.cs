@@ -37,8 +37,8 @@ public class InteractionController : MonoBehaviour
                         PlayerData.foodCollected++;
                         break;
 
-                    case "Coins":
-                        Debug.Log("Clicked on Coins");
+                    case "Coin":
+                        Debug.Log("Clicked on Coin");
                         hit.collider.gameObject.SetActive(false);
                         PlayerData.coinsCollected += 25;
                         break;
