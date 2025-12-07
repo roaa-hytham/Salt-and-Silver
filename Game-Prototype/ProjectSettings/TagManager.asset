@@ -19,6 +19,11 @@ TagManager:
   - Spirit
   - Coin
   - GroceryBag
+  - Bread
+  - Cucumber
+  - Eggplant
+  - Zuchini
+  - Tomato
   layers:
   - Default
   - TransparentFX
