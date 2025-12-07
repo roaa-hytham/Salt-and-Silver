@@ -2410,8 +2410,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.9971184, g: 0.9385261, b: 0.76178855, a: 1}
-  m_Intensity: 0.90607786
+  m_Color: {r: 0.9967709, g: 0.9311131, b: 0.7330632, a: 1}
+  m_Intensity: 0.8706345
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2473,7 +2473,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.07929862, y: 0.4133607, z: -0.90638673, w: 0.0361644}
+  m_LocalRotation: {x: 0.08007413, y: 0.39334434, z: -0.91525084, w: 0.034413196}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2516,7 +2516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayLength: 500
-  timeOfDay: 0.61380273
+  timeOfDay: 0.62079763
   sunLight: {fileID: 410087040}
   moonLight: {fileID: 1379328283}
   sunBaseIntensity: 1.2
@@ -7776,7 +7776,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.07348055
+  m_Intensity: 0.08234139
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -7838,7 +7838,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379328280}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.036164377, y: -0.90638685, z: -0.41336042, w: -0.07929863}
+  m_LocalRotation: {x: 0.03441319, y: -0.9152509, z: -0.39334428, w: -0.08007414}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
