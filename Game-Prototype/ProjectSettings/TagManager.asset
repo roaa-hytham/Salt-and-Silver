@@ -17,6 +17,7 @@ TagManager:
   - SpiderLily
   - YellowMushroom
   - Spirit
+  - Coin
   layers:
   - Default
   - TransparentFX
