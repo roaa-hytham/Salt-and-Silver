@@ -4,9 +4,9 @@ using UnityEngine;
 public class PlayerData : ScriptableObject
 {
     public int coins;
-    public int level;
-    public int health;
-    public string location;
+    public int level = 1;
+    public int health = 100;
+    public string location = "Restaurant";
 
     // Level 1 Conditions
     public int coinsCollected;

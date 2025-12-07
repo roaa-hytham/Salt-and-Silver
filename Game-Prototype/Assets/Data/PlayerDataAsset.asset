@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coins: 0
   level: 1
-  health: 0
-  location: 
+  health: 100
+  location: Restaurant
   coinsCollected: 0
   coinsRegistered: 0
   foodCollected: 0
