@@ -1,15 +1,40 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class InventoryController : MonoBehaviour
 {
     public TMP_Text Inventory;
     public PlayerData playerData;
+    private bool visibleInventory = false;
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.I) && !visibleInventory)
+        {
+            SceneManager.LoadScene("InventoryScene");
+            visibleInventory = !visibleInventory;
+        }
+
+        if(Input.GetKeyDown(KeyCode.I) && visibleInventory)
+        {
+            switch (playerData.location)
+            {
+                case "Restaurant":
+                    SceneManager.LoadScene("RestaurantScene");
+                    break;
+                case "Market":
+                    SceneManager.LoadScene("MarketScene");
+                    break;
+                case "Forest":
+                    SceneManager.LoadScene("ForestScene");
+                    break;
+            }
+            visibleInventory = !visibleInventory;
+        }
+
         if(playerData.tomatoesBought > 0)
         {
             Inventory.text += "Tomatoes: " + playerData.tomatoesBought + "\n";
