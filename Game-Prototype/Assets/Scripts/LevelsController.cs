@@ -33,9 +33,9 @@ public class LevelsController : MonoBehaviour
 
                 // Level 2 conditions are met
                 case 2:
-                    if (PlayerData.tomatoesBought == 5 &&
-                        PlayerData.breadBought == 3 &&
-                        PlayerData.eggplantsBought == 4 &&
+                    if (PlayerData.tomatoesBought >= 5 &&
+                        PlayerData.breadBought >= 4 &&
+                        PlayerData.eggplantsBought >= 3 &&
                         PlayerData.groceryBagOnCounter &&
                         PlayerData.location == "Restaurant")
                     {
@@ -47,9 +47,9 @@ public class LevelsController : MonoBehaviour
 
                 // Level 3 conditions are met
                 case 3:
-                    if (PlayerData.redMushroomsCollected == 4 &&
-                        PlayerData.yellowMushroomsCollected == 7 &&
-                        PlayerData.spiderLiliesCollected == 3 &&
+                    if (PlayerData.redMushroomsCollected >= 4 &&
+                        PlayerData.yellowMushroomsCollected >= 7 &&
+                        PlayerData.spiderLiliesCollected >= 3 &&
                         !PlayerData.isCaught &&
                         PlayerData.location == "Restaurant")
                     {

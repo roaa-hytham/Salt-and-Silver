@@ -37,6 +37,12 @@ public class InteractionController : MonoBehaviour
                         PlayerData.foodCollected++;
                         break;
 
+                    case "Coins":
+                        Debug.Log("Clicked on Coins");
+                        hit.collider.gameObject.SetActive(false);
+                        PlayerData.coinsCollected += 25;
+                        break;
+
                     case "LightSwitch":
                         Debug.Log("Clicked on LightSwitch");
                         StartCoroutine(playPressBtnAnim());

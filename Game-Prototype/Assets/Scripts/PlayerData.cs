@@ -18,6 +18,7 @@ public class PlayerData : ScriptableObject
     public int tomatoesBought;
     public int breadBought;
     public int eggplantsBought;
+    public bool hasGroceryBag;
     public bool groceryBagOnCounter;
 
     // Level 3 Conditions

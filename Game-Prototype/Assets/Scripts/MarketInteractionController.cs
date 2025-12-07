@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -7,7 +8,12 @@ public class MarketInteractionController : MonoBehaviour
     public Camera cam;
     public float rayDistance = 100f;
     private Animator anim;
+    public Animator ArabGirlAnim;
     public PlayerData playerData;
+    public GameObject GroceryBag;
+    public GameObject DialoguePanel;
+    public TMP_Text DialogueTxt;
+    private int totalCoins = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,23 +31,35 @@ public class MarketInteractionController : MonoBehaviour
             {
                 switch (hit.collider.tag)
                 {
-                    case "RedMushroom":
-                        Debug.Log("Clicked on RedMushroom");
+                    case "Tomato":
+                        Debug.Log("Clicked on Tomato");
                         StartCoroutine(playPickingUpAnim());
                         hit.collider.gameObject.SetActive(false);
-                        playerData.redMushroomsCollected++;
+                        playerData.tomatoesBought++;
+                        totalCoins += 5;
                         break;
-                    case "YellowMushroom":
-                        Debug.Log("Clicked on YellowMushroom");
+                    case "Bread":
+                        Debug.Log("Clicked on Bread");
                         StartCoroutine(playPickingUpAnim());
                         hit.collider.gameObject.SetActive(false);
-                        playerData.yellowMushroomsCollected++;
+                        playerData.breadBought++;
+                        totalCoins += 2;
                         break;
-                    case "SpiderLilies":
-                        Debug.Log("Clicked on SpiderLilies");
+                    case "Eggplant":
+                        Debug.Log("Clicked on Eggplant");
                         StartCoroutine(playPickingUpAnim());
                         hit.collider.gameObject.SetActive(false);
-                        playerData.spiderLiliesCollected++;
+                        playerData.eggplantsBought++;
+                        totalCoins += 3;
+                        break;
+                    case "ArabGirl":
+                        Debug.Log("Clicked on ArabGirl");
+                        StartCoroutine(talkingWithArabGirl());
+                        break;
+                    case "GroceryBag":
+                        Debug.Log("Clicked on GroceryBag");
+                        hit.collider.gameObject.SetActive(false);
+                        playerData.hasGroceryBag = true;
                         break;
                     default:
                         Debug.Log("Clicked on something else: " + hit.collider.tag);
@@ -56,5 +74,23 @@ public class MarketInteractionController : MonoBehaviour
         anim.SetBool("pickingUp", true);
         yield return new WaitForSeconds(2);
         anim.SetBool("pickingUp", false);
+    }
+
+    IEnumerator talkingWithArabGirl()
+    {
+        //ArabGirlAnim.SetBool("isTalking", true);
+        //anim.SetBool("isTalking", true);
+        DialoguePanel.SetActive(true);
+        DialogueTxt.text = "Megan: I would like to buy these, please.";
+        yield return new WaitForSeconds(2f);
+        DialogueTxt.text = "Market Girl: Sure, This will be " + totalCoins + " coins in total.";
+        yield return new WaitForSeconds(2f);
+        DialogueTxt.text = "Megan: Here you go.";
+        playerData.coins -= totalCoins;
+        yield return new WaitForSeconds(2f);
+        //anim.SetBool("isTalking", false);
+        //ArabGirlAnim.SetBool("isTalking", false);
+        DialoguePanel.SetActive(false);
+        GroceryBag.SetActive(true);
     }
 }
