@@ -10,14 +10,14 @@ public class HealthUIController : MonoBehaviour
     public TMP_Text HealthTxt;
     // Stores player's data
     public PlayerData playerData;
-    // Holds the player's current health score
-    private int hp = playerData.health;
-    // Holds the maximum health score player can reach
-    private int maxHp = playerData.maxHealth;
 
     // Update is called once per frame
     void Update()
     {
+        // Holds the player's current health score
+        int hp = playerData.health;
+        // Holds the maximum health score player can reach
+        int maxHp = playerData.maxHealth;
         HealthTxt.text = "HP: " + hp;
         if(hp >= maxHp)
         {
