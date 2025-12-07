@@ -6,4 +6,23 @@ public class PlayerData : ScriptableObject
     public int coins;
     public int level;
     public int health;
+    public string location;
+
+    // Level 1 Conditions
+    public int coinsCollected;
+    public bool coinsRegistered;
+    public int foodCollected;
+    public bool restaurantLightsOff;
+
+    // Level 2 Conditions
+    public int tomatoesBought;
+    public int breadBought;
+    public int eggplantsBought;
+    public bool groceryBagOnCounter;
+
+    // Level 3 Conditions
+    public int redMushroomsCollected;
+    public int yellowMushroomsCollected;
+    public int spiderLiliesCollected;
+    public bool isCaught;
 }

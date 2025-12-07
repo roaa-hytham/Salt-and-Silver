@@ -1021,8 +1021,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.9925041, g: 0.8400873, b: 0.3803383, a: 1}
-  m_Intensity: 0.43541744
+  m_Color: {r: 0.99350363, g: 0.86140954, b: 0.46296203, a: 1}
+  m_Intensity: 0.5373645
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1084,7 +1084,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.01608864, y: 0.97907454, z: -0.18389387, w: 0.085657984}
+  m_LocalRotation: {x: 0.020052284, y: 0.96946996, z: -0.2291985, w: 0.084817685}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1127,7 +1127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dayLength: 500
-  timeOfDay: 0.30909777
+  timeOfDay: 0.32389683
   sunLight: {fileID: 410087040}
   moonLight: {fileID: 1379328283}
   sunBaseIntensity: 1.2
@@ -1352,8 +1352,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 34
-  m_fontSizeBase: 34
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3673,7 +3673,7 @@ Light:
   serializedVersion: 11
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.19114564
+  m_Intensity: 0.16565889
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -3735,7 +3735,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379328280}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.085657984, y: -0.18389389, z: -0.97907454, w: -0.016088642}
+  m_LocalRotation: {x: 0.084817685, y: -0.22919847, z: -0.96946996, w: -0.020052282}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4586,6 +4586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 330585545}
   rayDistance: 100
+  playerData: {fileID: 11400000, guid: f01c34de02ec3e2418d33e57dd24da0e, type: 2}
 --- !u!114 &1836845644
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 
 public class InteractionController : MonoBehaviour
 {
+    public PlayerData PlayerData;
     public Camera cam;
     public float rayDistance = 100f;
     private Animator anim;
@@ -26,11 +27,14 @@ public class InteractionController : MonoBehaviour
                     case "CashRegister":
                         Debug.Log("Clicked on CashRegister");
                         StartCoroutine(playPressBtnAnim());
+                        PlayerData.coins += PlayerData.coinsCollected;
+                        PlayerData.coinsRegistered = true;
                         break;
 
                     case "Food":
                         Debug.Log("Clicked on Food");
                         hit.collider.gameObject.SetActive(false);
+                        PlayerData.foodCollected++;
                         break;
 
                     case "LightSwitch":
@@ -58,6 +62,14 @@ public class InteractionController : MonoBehaviour
     {
         light.enabled = !light.enabled;
         light2.enabled = light.enabled;
+        if (light.enabled)
+        {
+            PlayerData.restaurantLightsOff = false;
+        }
+        else
+        {
+            PlayerData.restaurantLightsOff = true;
+        }
         Debug.Log("Light toggled. Now: " + (light.enabled ? "ON" : "OFF"));
         Debug.Log("Light2 toggled. Now: " + (light2.enabled ? "ON" : "OFF"));
     }
